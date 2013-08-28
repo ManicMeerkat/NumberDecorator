@@ -38,6 +38,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FizzBuzzMapperTest.cs" />
     <Compile Include="NumberDecoratorLibTester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
