@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fbe3b2f7-bbc5-437e-aa1d-9cf8f747ae19" name="Jason.Pollack@JPOLLACK-LT-LA 2013-08-27 23:59:55" runUser="247WPP\Jason.Pollack" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4be742e0-cd6b-4dda-8d6b-6624623c189f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\TestResults\Jason.Pollack_JPOLLACK-LT-LA 2013-08-27 23_59_55">
+      <DeploymentItem filename="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecorator\bin\Debug\NumberDecorator.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2013-08-27T23:59:55.7301675-07:00" queuing="2013-08-27T23:59:57.5865707-07:00" start="2013-08-27T23:59:57.7893711-07:00" finish="2013-08-28T00:00:41.9530487-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestCorrectFizzBuzz" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="807a294d-a84d-1627-2e9b-66b8fed114c6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="98d7068e-045c-408e-8bcc-35fe2389b7d8" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestCorrectFizzBuzz" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="807a294d-a84d-1627-2e9b-66b8fed114c6" executionId="98d7068e-045c-408e-8bcc-35fe2389b7d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="98d7068e-045c-408e-8bcc-35fe2389b7d8" testId="807a294d-a84d-1627-2e9b-66b8fed114c6" testName="TestCorrectFizzBuzz" computerName="JPOLLACK-LT-LA" duration="00:00:43.3726164" startTime="2013-08-27T23:59:57.9297713-07:00" endTime="2013-08-28T00:00:41.8126484-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Unexpected exception: Assert.AreEqual failed. Expected:&lt;System.Collections.Generic.List`1[System.String]&gt;. Actual:&lt;System.Collections.Generic.List`1[System.String]&gt;. </Message>
+          <StackTrace>   at NumberDecoratorTester.NumberDecoratorLibTester.TestCorrectFizzBuzz() in C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\NumberDecoratorLibTester.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

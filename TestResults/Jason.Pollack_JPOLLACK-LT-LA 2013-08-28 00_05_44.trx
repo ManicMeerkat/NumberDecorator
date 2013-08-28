@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6844f3ce-32f0-42e1-a7ed-6df8d4657f33" name="Jason.Pollack@JPOLLACK-LT-LA 2013-08-28 00:05:44" runUser="247WPP\Jason.Pollack" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4be742e0-cd6b-4dda-8d6b-6624623c189f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\TestResults\Jason.Pollack_JPOLLACK-LT-LA 2013-08-28 00_05_44">
+      <DeploymentItem filename="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecorator\bin\Debug\NumberDecorator.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2013-08-28T00:05:44.6169431-07:00" queuing="2013-08-28T00:05:44.8353435-07:00" start="2013-08-28T00:05:44.9027439-07:00" finish="2013-08-28T00:05:45.2027610-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestInvalidRange" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="cb3f5d6c-3c50-2a5e-953c-4c7b20e8ad3b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="64f57b8c-1a54-4303-abed-380f6d1f2018" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestInvalidRange" />
+    </UnitTest>
+    <UnitTest name="TestLength" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="09aedf3f-e21b-42e9-20b0-75f8e00a02ec">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4385b6d7-e6c2-47dd-934f-e91fad173ee7" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestLength" />
+    </UnitTest>
+    <UnitTest name="TestInvalidMapper" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4facaa78-a032-46a1-bc48-f7bfcd14259f" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestInvalidMapper" />
+    </UnitTest>
+    <UnitTest name="TestCorrectFizzBuzz" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="807a294d-a84d-1627-2e9b-66b8fed114c6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="561e234a-50ec-4cb3-8e82-7861869e6c44" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestCorrectFizzBuzz" />
+    </UnitTest>
+    <UnitTest name="TestNonNull" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="ce84d4a7-6949-3a91-7d5f-883b641452a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bc56fe74-de8a-4e1f-b4fd-e367ddb56700" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestNonNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="09aedf3f-e21b-42e9-20b0-75f8e00a02ec" executionId="4385b6d7-e6c2-47dd-934f-e91fad173ee7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2" executionId="4facaa78-a032-46a1-bc48-f7bfcd14259f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="807a294d-a84d-1627-2e9b-66b8fed114c6" executionId="561e234a-50ec-4cb3-8e82-7861869e6c44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3f5d6c-3c50-2a5e-953c-4c7b20e8ad3b" executionId="64f57b8c-1a54-4303-abed-380f6d1f2018" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce84d4a7-6949-3a91-7d5f-883b641452a6" executionId="bc56fe74-de8a-4e1f-b4fd-e367ddb56700" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4385b6d7-e6c2-47dd-934f-e91fad173ee7" testId="09aedf3f-e21b-42e9-20b0-75f8e00a02ec" testName="TestLength" computerName="JPOLLACK-LT-LA" duration="00:00:00.0139104" startTime="2013-08-28T00:05:44.9337456-07:00" endTime="2013-08-28T00:05:45.1677590-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4facaa78-a032-46a1-bc48-f7bfcd14259f" testId="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2" testName="TestInvalidMapper" computerName="JPOLLACK-LT-LA" duration="00:00:00.0004316" startTime="2013-08-28T00:05:45.1697591-07:00" endTime="2013-08-28T00:05:45.1737594-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="561e234a-50ec-4cb3-8e82-7861869e6c44" testId="807a294d-a84d-1627-2e9b-66b8fed114c6" testName="TestCorrectFizzBuzz" computerName="JPOLLACK-LT-LA" duration="00:00:00.0022588" startTime="2013-08-28T00:05:45.1757595-07:00" endTime="2013-08-28T00:05:45.1807598-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64f57b8c-1a54-4303-abed-380f6d1f2018" testId="cb3f5d6c-3c50-2a5e-953c-4c7b20e8ad3b" testName="TestInvalidRange" computerName="JPOLLACK-LT-LA" duration="00:00:00.0004292" startTime="2013-08-28T00:05:45.1807598-07:00" endTime="2013-08-28T00:05:45.1857601-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc56fe74-de8a-4e1f-b4fd-e367ddb56700" testId="ce84d4a7-6949-3a91-7d5f-883b641452a6" testName="TestNonNull" computerName="JPOLLACK-LT-LA" duration="00:00:00.0003718" startTime="2013-08-28T00:05:45.1877602-07:00" endTime="2013-08-28T00:05:45.1917604-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4cb1d7d8-9a45-486d-ab6b-b471025b9d0f" name="Jason.Pollack@JPOLLACK-LT-LA 2013-08-27 23:59:21" runUser="247WPP\Jason.Pollack" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4be742e0-cd6b-4dda-8d6b-6624623c189f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\TestResults\Jason.Pollack_JPOLLACK-LT-LA 2013-08-27 23_59_21">
+      <DeploymentItem filename="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecorator\bin\Debug\NumberDecorator.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2013-08-27T23:59:21.2025518-07:00" queuing="2013-08-27T23:59:21.7173527-07:00" start="2013-08-27T23:59:21.9201530-07:00" finish="2013-08-27T23:59:22.6065542-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestInvalidRange" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="cb3f5d6c-3c50-2a5e-953c-4c7b20e8ad3b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="60e2dcb6-f571-424e-9d54-1e102a27f5a0" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestInvalidRange" />
+    </UnitTest>
+    <UnitTest name="TestInvalidMapper" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="854c5f9d-64ee-4757-acca-4cf17a7a2d34" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestInvalidMapper" />
+    </UnitTest>
+    <UnitTest name="TestCorrectFizzBuzz" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="807a294d-a84d-1627-2e9b-66b8fed114c6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ae1c6ce5-d757-437e-b07a-4520595067ac" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestCorrectFizzBuzz" />
+    </UnitTest>
+    <UnitTest name="TestLength100" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="dad620ef-1b84-1755-483e-5e33d5296d46">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8cbbdd95-3ec3-4312-bba9-6b7c2d98857e" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestLength100" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2" executionId="854c5f9d-64ee-4757-acca-4cf17a7a2d34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="807a294d-a84d-1627-2e9b-66b8fed114c6" executionId="ae1c6ce5-d757-437e-b07a-4520595067ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb3f5d6c-3c50-2a5e-953c-4c7b20e8ad3b" executionId="60e2dcb6-f571-424e-9d54-1e102a27f5a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dad620ef-1b84-1755-483e-5e33d5296d46" executionId="8cbbdd95-3ec3-4312-bba9-6b7c2d98857e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="854c5f9d-64ee-4757-acca-4cf17a7a2d34" testId="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2" testName="TestInvalidMapper" computerName="JPOLLACK-LT-LA" duration="00:00:00.0144969" startTime="2013-08-27T23:59:21.9981532-07:00" endTime="2013-08-27T23:59:22.4349539-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ae1c6ce5-d757-437e-b07a-4520595067ac" testId="807a294d-a84d-1627-2e9b-66b8fed114c6" testName="TestCorrectFizzBuzz" computerName="JPOLLACK-LT-LA" duration="00:00:00.0216934" startTime="2013-08-27T23:59:22.4349539-07:00" endTime="2013-08-27T23:59:22.4661540-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Unexpected exception: Assert.AreEqual failed. Expected:&lt;System.Collections.Generic.List`1[System.String]&gt;. Actual:&lt;System.Collections.Generic.List`1[System.String]&gt;. </Message>
+          <StackTrace>   at NumberDecoratorTester.NumberDecoratorLibTester.TestCorrectFizzBuzz() in C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\NumberDecoratorLibTester.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60e2dcb6-f571-424e-9d54-1e102a27f5a0" testId="cb3f5d6c-3c50-2a5e-953c-4c7b20e8ad3b" testName="TestInvalidRange" computerName="JPOLLACK-LT-LA" duration="00:00:00.0004372" startTime="2013-08-27T23:59:22.4661540-07:00" endTime="2013-08-27T23:59:22.4661540-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8cbbdd95-3ec3-4312-bba9-6b7c2d98857e" testId="dad620ef-1b84-1755-483e-5e33d5296d46" testName="TestLength100" computerName="JPOLLACK-LT-LA" duration="00:00:00.0006765" startTime="2013-08-27T23:59:22.4661540-07:00" endTime="2013-08-27T23:59:22.4817540-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

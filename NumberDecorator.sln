@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDecorator", "NumberDecorator\NumberDecorator.csproj", "{C3914119-EA7F-4E21-8391-47E8E4A067A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDecoratorClient", "NumberDecoratorClient\NumberDecoratorClient.csproj", "{8CD3E803-3FC3-45E4-A83D-F484A2FC1B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDecoratorTester", "NumberDecoratorTester\NumberDecoratorTester.csproj", "{0A5AF57D-5F5D-49D3-89FB-F5F531057C0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FD0B7D8-9DFE-4241-89B6-3678DE789D22}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		NumberDecorator.vsmdi = NumberDecorator.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NumberDecorator.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3914119-EA7F-4E21-8391-47E8E4A067A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3914119-EA7F-4E21-8391-47E8E4A067A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3914119-EA7F-4E21-8391-47E8E4A067A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3914119-EA7F-4E21-8391-47E8E4A067A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD3E803-3FC3-45E4-A83D-F484A2FC1B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD3E803-3FC3-45E4-A83D-F484A2FC1B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD3E803-3FC3-45E4-A83D-F484A2FC1B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD3E803-3FC3-45E4-A83D-F484A2FC1B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5AF57D-5F5D-49D3-89FB-F5F531057C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5AF57D-5F5D-49D3-89FB-F5F531057C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5AF57D-5F5D-49D3-89FB-F5F531057C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5AF57D-5F5D-49D3-89FB-F5F531057C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

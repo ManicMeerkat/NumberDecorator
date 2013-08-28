@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3811d73c-a00b-4748-895d-ac40636ec18b" name="Jason.Pollack@JPOLLACK-LT-LA 2013-08-28 00:05:23" runUser="247WPP\Jason.Pollack" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4be742e0-cd6b-4dda-8d6b-6624623c189f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\TestResults\Jason.Pollack_JPOLLACK-LT-LA 2013-08-28 00_05_23">
+      <DeploymentItem filename="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecorator\bin\Debug\NumberDecorator.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2013-08-28T00:05:23.7909065-07:00" queuing="2013-08-28T00:05:24.1185071-07:00" start="2013-08-28T00:05:24.3681075-07:00" finish="2013-08-28T00:05:24.6489080-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestNonNull" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="ce84d4a7-6949-3a91-7d5f-883b641452a6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="744199f7-79d6-4d73-b268-7ff1f861a600" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestNonNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ce84d4a7-6949-3a91-7d5f-883b641452a6" executionId="744199f7-79d6-4d73-b268-7ff1f861a600" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="744199f7-79d6-4d73-b268-7ff1f861a600" testId="ce84d4a7-6949-3a91-7d5f-883b641452a6" testName="TestNonNull" computerName="JPOLLACK-LT-LA" duration="00:00:00.0196889" startTime="2013-08-28T00:05:24.3993076-07:00" endTime="2013-08-28T00:05:24.6333080-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="712b2c5b-0b5c-4125-b1bf-61147583dc5b" name="Jason.Pollack@JPOLLACK-LT-LA 2013-08-27 23:58:23" runUser="247WPP\Jason.Pollack" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4be742e0-cd6b-4dda-8d6b-6624623c189f">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\TestResults\Jason.Pollack_JPOLLACK-LT-LA 2013-08-27 23_58_23">
+      <DeploymentItem filename="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecorator\bin\Debug\NumberDecorator.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2013-08-27T23:58:23.6507694-07:00" queuing="2013-08-27T23:58:25.6163729-07:00" start="2013-08-27T23:58:25.8191732-07:00" finish="2013-08-27T23:58:39.0512777-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestInvalidMapper" storage="c:\users\jason.pollack\documents\visual studio 2008\projects\numberdecorator\numberdecoratortester\bin\debug\numberdecoratortester.dll" id="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="031405e8-3c9c-42c3-a096-e190324dfe85" />
+      <TestMethod codeBase="C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\bin\Debug\NumberDecoratorTester.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NumberDecoratorTester.NumberDecoratorLibTester, NumberDecoratorTester" name="TestInvalidMapper" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2" executionId="031405e8-3c9c-42c3-a096-e190324dfe85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="031405e8-3c9c-42c3-a096-e190324dfe85" testId="0c06b3e6-a30c-f4d9-502d-8a49cabe37a2" testName="TestInvalidMapper" computerName="JPOLLACK-LT-LA" duration="00:00:12.5061783" startTime="2013-08-27T23:58:25.9439734-07:00" endTime="2013-08-27T23:58:38.9264775-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Unexpected exception: No Number Mapper provided to NumberDecorator.getNumberedList</Message>
+          <StackTrace>   at NumberDecoratorTester.NumberDecoratorLibTester.TestInvalidMapper() in C:\Users\Jason.Pollack\Documents\Visual Studio 2008\Projects\NumberDecorator\NumberDecoratorTester\NumberDecoratorLibTester.cs:line 95
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
